@@ -7,6 +7,7 @@ Interpolates between two 4x4 matrices, using algorithms from W3C Spec to produce
 Translation, scale, skew and perspective are interpolated linearly, and rotation is interpolated with spherical interpolation.
 
 ```js
+var mat4 = require('gl-mat4')
 var start = mat4.create()
 var end = mat4.fromRotationTranslation([], [0,1,0,0], [20, 50, -10])
 var out = mat4.create()
