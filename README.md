@@ -19,7 +19,9 @@ var lerp = require('mat4-interpolate')
 //.. in your render loop
 function render() {
     //interpolate based on alpha, storing results in 'out' matrix
-    if (!interpolate(out, start, end, alpha)) {
+    var vlid = interpolate(out, start, end, alpha)
+    
+    if (!valid) {
         //could not interpolate, you need to animate yourself somehow   
     }
 }
