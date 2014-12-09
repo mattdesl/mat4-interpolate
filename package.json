@@ -1,6 +1,6 @@
 {
   "name": "mat4-interpolate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "interpolates two matrices in place",
   "main": "index.js",
   "license": "MIT",
