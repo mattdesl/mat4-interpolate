@@ -12,7 +12,7 @@ var start = mat4.create()
 var end = mat4.fromRotationTranslation([], [0,1,0,0], [20, 50, -10])
 var out = mat4.create()
 
-//create the interpolator
+//the matrix interpolator
 var lerp = require('mat4-interpolate')
 
 
