@@ -13,7 +13,7 @@ var end = mat4.fromRotationTranslation([], [0,1,0,0], [20, 50, -10])
 var out = mat4.create()
 
 //the matrix interpolator
-var lerp = require('mat4-interpolate')
+var interpolate = require('mat4-interpolate')
 
 
 //.. in your render loop
